@@ -1,0 +1,95 @@
+.page{
+    background-color:grey;
+}
+.h2{
+    width: auto;
+    height: 10%;
+    border:aquamarine outset;
+    background-color: black;
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    letter-spacing: 2.1px;
+    border-radius: 8px;
+
+    
+}
+.slide{
+    margin-left: 25%;
+    margin-right: 50%;
+
+letter-spacing: 2.0px;
+font-weight: larger;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+margin-top: -1.4%;
+background-color:rgb(85, 255, 0);
+}
+.slide1{
+    margin-left: 50%;
+letter-spacing: 2.0px;
+font-weight: larger;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+margin-top: -3.1%;
+background-color:green;
+}
+
+#photos{
+    width: 100%;
+    background-color:rgb(228, 185, 11);
+    margin-top: -1%;
+   height: 100%;
+
+}
+#slider{
+    overflow:hidden;
+
+   }
+   #slider figure{
+       height: 100%;
+
+    margin-top: -6%;
+    background-color: yellow;
+position:relative;
+width: 500%;
+margin-left:5%;
+left:0;
+animation:20s slider infinite;
+   }
+   #slider figure img{
+    float:right;
+    width: 20%;
+   }
+   @keyframes slider{
+    0%{
+        left:0% ;
+    }
+    20%{
+        left: -100%;
+    }
+    40%{
+        left: -200%;
+    }
+    60%{
+        left: -300%;
+    }
+    80%{
+        left: -400%;
+    }
+    100%{
+        left:-200%;
+    }
+120%{
+        left:-600%;
+    }
+    130%{
+left:-700%;
+    }
+    140%{
+        left: -800%;
+    }
+    160%{
+        left:-900%;
+    }
+   
+   }
+  

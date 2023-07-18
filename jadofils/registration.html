@@ -1,0 +1,138 @@
+<?php
+include('connection.php');
+include('register-success.php');
+?>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <!--this logo icons link-->
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=< initial-scale=1.0">
+    <title>Document</title>
+    <style type="text/css">
+      *{
+         background-color:grey;
+      }
+            .input{
+            background-color: black;
+            text-align: left;
+            color: white;
+            letter-spacing: 2.6px;
+            font-family: cursive;
+            font-weight: 40px;
+            font-size: x-large;
+            border-radius: 8px;
+            border: indianred outset;
+
+         }
+         .input:hover{
+            text-decoration: none;
+            border: dashed;
+         cursor:!important ;
+
+         }
+         .input:focus{
+            outline: double;
+            border-bottom: none;
+            border-top: none;
+            border-right: none;
+            border-left: none;
+         }
+         .p{
+              text-align: left;
+            color: white;
+            letter-spacing: 2.6px;
+            font-family: cursive;
+            font-weight: 40px;
+            font-size: x-large;
+
+
+         }
+         .button{
+            background-color: black;
+            text-align: left;
+            color: white;
+            letter-spacing: 2.6px;
+            font-family: cursive;
+            font-weight: 40px;
+            font-size: x-large;
+            text-decoration: none;
+            border-radius: 8px;
+
+
+         }
+         .button:hover{
+            text-decoration: none;
+         cursor:progress ;
+
+
+         }
+         .button a{
+                        text-decoration: none;
+
+
+         }
+         .form1{
+            margin-top:-15%;
+         }
+     .image{
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      gap:12px;
+      flex-direction:column;
+      margin-left:50%;
+     }
+       #display_image{
+         width:250px;
+         height:300px;
+         background-position:center;
+         border:black solid;
+         background-size:cover;
+
+       }
+  
+ 
+      </style>
+
+</head>
+<body>
+   <div class="image">
+         <h1>Jado Fils</h1>
+<input type="file" accept="image/jpeg,image/png,image/jpg" id="#image_input">
+   </div>
+      <div class="display-image"></div>
+
+      <form  class="form1">
+   <form action="" method="POST" class="form1">
+
+<h3 class="p">This is our online applicational page.if you want to make <br>
+application in university not be hestate to <br>
+make your signup here!
+<br></h3>
+ <p class="p">names:</p><br><input class="input" type="text" name="name" autocomplete="off"><br>
+ <p class="p">email:</p><br><input class="input" type="email" name="email" autocomplete="off"><br>
+   <p class="p"> password:</p><br><input class="input" type="password" name="password" autocomplete="off"><br><br>
+<button class="button"name="submit">submit</button>
+<button class="button"><a href="display.php">view</a></button>
+<h3 class="p">Already you have an account?<a class="button" href="login.php">Login here</a></h3>
+
+   </form> 
+   <h3>you can login or follow us on:</h3>
+   <a href="fb"><ion-icon name="logo-instagram"></ion-icon></a>
+   <a href="fb"><ion-icon name="logo-facebook"></ion-icon></a>
+   <a href="fb"><ion-icon name="logo-twitter"></ion-icon></a>
+   <a href="fb"><ion-icon name="logo-linkedin"></ion-icon></a>
+   <a href="fb"><ion-icon name="logo-skype"></ion-icon></a>
+   <a href="fb"><ion-icon name="logo-youtube"></ion-icon></a>
+
+
+
+<script  src="register.js"></script>
+</body>
+</html>

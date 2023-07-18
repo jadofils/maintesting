@@ -1,0 +1,10 @@
+#h2{
+	background: yellow;
+	width: 100%;
+	height: 100px;
+	text-align: center;
+	border-radius: 8px;
+	border: black outset;
+	margin-top: 12px;
+
+}

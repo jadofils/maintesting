@@ -1,0 +1,68 @@
+<?php
+include('connection.php');
+?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+	<div class="form" >
+		<form action="" method="POST">
+			<input type="text" placeholder="enter item you need!!">
+			<button  name="submit">Searching</button>
+		</form>
+</div>
+<br><br><br>
+    <table border="2px" cellpading="10px" cellspacing="0px">
+    <thead><tr>
+<th>id</th>
+<th>name</th>
+<th>email</th>
+<th>password</th>
+<th>date</th>
+</tr>
+</thead>
+<?php
+if(isset($_POST['submit'])){
+	$search=$_POST['submit'];
+$query="SELECT * FROM customers WHERE id='$search' ";
+$result=mysqli_query($conn,$query);
+//$result=mysqli_num_rows($data);
+if($result){
+if(mysqli_num_rows($result)>0)
+{
+
+$row=mysqli_num_rows($result);
+
+
+
+    ?>
+        <tr>
+            <td> <?php . $row['id'];.?></td>
+        <td> <?php  .$row['names'];.?></td>
+        <td> <?php .$row['email'].?></td>
+                <td> <?php .$row['password'];.?></td>
+                                <td> <?php .$row['date'].?></td>
+
+
+
+        <td><a href="update.php?id=<?php echo $row['id'];?>">Edit</a></td>
+        <td><a href="delete.php?id=<?php echo $row['id'];?>">Delete</a></td>
+
+    
+
+</tr>
+<?php
+}
+}
+}
+?>
+
+</table>
+</body>
+</html>
+

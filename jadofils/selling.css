@@ -1,0 +1,163 @@
+.body{
+    background-color:white;
+}
+
+.section{
+    font-size: larger;
+    font-weight: 15px;
+    color:blanchedalmond;
+    background-color: #ff7200;
+    letter-spacing: 2px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 10px;
+    text-align: center;
+}
+
+ .details{
+
+    font-size: larger;
+    font-weight: 15px;
+    color:black;
+    background-color:white;
+    letter-spacing: 2px;
+font-family: sans-serif;   
+ border-radius: 10px;
+    text-align: left;
+    margin-top: -300px;
+    margin-left: 2%;
+ }
+ .form{
+   width:"50px";
+   background-color: blue;
+   text-align: left;
+   border-radius: 10px;
+   margin-right: 50px;
+   margin-left: 50px;
+ }
+ .input{
+   background-color: black;
+   text-align: left;
+   color: white;
+   letter-spacing: 2.6px;
+   font-family: cursive;
+   font-weight: 40px;
+   font-size: x-large;
+   border-radius: 8px;
+   border: indianred outset;
+
+}
+.input:hover{
+   text-decoration: none;
+   border: dashed;
+cursor:!important ;
+
+}
+.input:focus{
+   outline: double;
+   border-bottom: none;
+   border-top: none;
+   border-right: none;
+   border-left: none;
+}
+
+
+.button{
+   background-color: black;
+   text-align: left;
+   color: white;
+   letter-spacing: 2.6px;
+   font-family: cursive;
+   font-weight: 40px;
+   font-size: x-large;
+   text-decoration: none;
+   border-radius: 8px;
+
+
+}
+.button:hover{
+   text-decoration: none;
+cursor:progress ;
+
+
+}
+.button a{
+               text-decoration: none;
+
+
+}
+.article{
+   background-color: azure;
+   color: black;
+   border: solid;
+   flex: 1;
+   width:60%;
+   float: right;
+}
+.article  input{
+   background-color: black;
+   text-align: left;
+   color: white;
+   letter-spacing: 2.6px;
+   font-family: cursive;
+   font-weight: 40px;
+   font-size: x-large;
+   border-radius: 8px;
+   border: indianred outset;
+
+}
+.input:hover{
+   text-decoration: none;
+   border: dashed;
+cursor:!important ;
+
+}
+.input:focus{
+   outline: double;
+   border-bottom: none;
+   border-top: none;
+   border-right: none;
+   border-left: none;
+}
+.txtarea{
+   background-color: black;
+   text-align: left;
+   color: white;
+   letter-spacing: 2.6px;
+   font-family: cursive;
+   font-weight: 40px;
+   font-size: x-large;
+   text-decoration: none;
+   border-radius: 8px;
+}
+
+.article button{
+   background-color: black;
+   text-align: left;
+   color: white;
+   letter-spacing: 2.6px;
+   font-family: cursive;
+   font-weight: 40px;
+   font-size: x-large;
+   text-decoration: none;
+   border-radius: 8px;
+
+
+}
+.button:hover{
+   text-decoration: none;
+cursor:progress ;
+
+
+}
+.button a{
+               text-decoration: none;
+
+
+}
+.footer{
+   color:bisque;
+   font-size: large;
+   font-weight: 10px;
+   font-family: 'Times New Roman', Times, serif;
+   letter-spacing: 1.4px;
+}
